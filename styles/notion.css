@@ -356,10 +356,11 @@
 /* .notion-page-icon-hero {
   left: 0;
 } */
-.notion-page-icon-hero.notion-page-icon-image span,
+
+/* .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
   border-radius: 50%;
-}
+} */
 
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
