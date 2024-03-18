@@ -12,6 +12,10 @@
   --notion-header-height: 54px;
 }
 
+.notion-app {
+  --bg-color: rgba(246, 246, 249, 1);
+}
+
 .notion-frame {
   padding: 0;
 }
