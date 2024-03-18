@@ -358,16 +358,9 @@
   box-shadow: 0 8px 40px 0 rgb(0 0 0 / 21%);
   position: static;
   margin-left: 0;
+  width: 95px;
+  height: 95px;
 }
-/* .notion-page-icon-hero {
-  left: 0;
-} */
-
-
-/* .notion-page-icon-hero.notion-page-icon-image span,
-.notion-page-icon-hero.notion-page-icon-image img {
-  border-radius: 50%;
-} */
 
 .notion-header {
   background: hsla(0, 0%, 97%, 0.8);
