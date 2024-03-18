@@ -19,12 +19,8 @@
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;
   line-height: 1.65;
+  --notion-max-width: 60rem;
 }
-
-// 페이지 너비 조절
-/* .index-page {
-  --notion-max-width: 900px;
-} */
 
 .notion-text {
   padding: 0.5em 2px;
