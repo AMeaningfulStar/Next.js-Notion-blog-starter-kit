@@ -42,24 +42,33 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/': '321f43ecb4f94460aad9ac3c5b6e65bb',
+    '/resume': 'resume-e23c16b7992f4c4283041d89190bccc4',
+    '/m-blog': '6a29ebcb935a4f0689fe661ab5f3b8d1'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default',
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Home',
+      pageId: '321f43ecb4f94460aad9ac3c5b6e65bb'
+    },
+    {
+      title: 'Resume',
+      pageId: 'resume-e23c16b7992f4c4283041d89190bccc4'
+    },
+    {
+      title: 'Github',
+      url: 'https://github.com/AMeaningfulStar'
+    },
+    {
+      title: 'M-Blog',
+      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+    }
+  ]
 })
