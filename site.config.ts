@@ -44,8 +44,9 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/': '321f43ecb4f94460aad9ac3c5b6e65bb',
-    '/resume': 'resume-e23c16b7992f4c4283041d89190bccc4',
-    '/m-blog': '6a29ebcb935a4f0689fe661ab5f3b8d1'
+    '/resume': 'Resume-2efd21e6988b4ff8aa5ba4318ce66d17',
+    '/portfolio' : 'Portfolio-ecc322cd61e840899aef30279e19173b',
+    '/m-log': 'M-log-c5dc1513e3b7468eaf2eceeefba7abff'
   },
   // pageUrlOverrides: null,
 
@@ -60,15 +61,19 @@ export default siteConfig({
     },
     {
       title: 'Resume',
-      pageId: 'resume-e23c16b7992f4c4283041d89190bccc4'
+      pageId: 'Resume-2efd21e6988b4ff8aa5ba4318ce66d17'
+    },
+    {
+      title: 'Portfolio',
+      pageId: 'Portfolio-ecc322cd61e840899aef30279e19173b'
     },
     {
       title: 'Github',
       url: 'https://github.com/AMeaningfulStar'
     },
     {
-      title: 'M-Blog',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      title: 'M-Log',
+      pageId: 'M-log-c5dc1513e3b7468eaf2eceeefba7abff'
     }
   ]
 })
