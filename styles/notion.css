@@ -110,6 +110,10 @@
   padding: 10px;
 }
 
+.notion-list-item-body {
+  display: none;
+}
+
 /* only target safari */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   _::-webkit-full-page-media,
